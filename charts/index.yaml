@@ -1,0 +1,22 @@
+apiVersion: v1
+entries:
+  nominatim:
+  - apiVersion: v2
+    appVersion: "3.7"
+    created: "2022-03-01T15:22:28.904565-08:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      version: 1.x.x
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.5.3
+    description: A Helm chart for Kubernetes
+    digest: bd6076c28bb11078bda6690cbecca4388e610117ccb82a8e45ff77a0d9ca26b7
+    name: nominatim
+    type: application
+    urls:
+    - nominatim-1.2.2.tgz
+    version: 1.2.2
+generated: "2022-03-01T15:22:28.899626-08:00"
