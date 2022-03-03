@@ -3,7 +3,7 @@ entries:
   nominatim:
   - apiVersion: v2
     appVersion: "3.7"
-    created: "2022-03-01T15:22:28.904565-08:00"
+    created: "2022-03-02T17:52:51.930529-08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -13,10 +13,10 @@ entries:
       repository: https://charts.bitnami.com/bitnami
       version: 10.5.3
     description: A Helm chart for Kubernetes
-    digest: bd6076c28bb11078bda6690cbecca4388e610117ccb82a8e45ff77a0d9ca26b7
+    digest: 3da85211d9c0b854b11a7fdc482a21273f14932c228ec28fd04bfa02c8e8c052
     name: nominatim
     type: application
     urls:
-    - nominatim-1.2.2.tgz
-    version: 1.2.2
-generated: "2022-03-01T15:22:28.899626-08:00"
+    - nominatim-1.3.0.tgz
+    version: 1.3.0
+generated: "2022-03-02T17:52:51.925916-08:00"
